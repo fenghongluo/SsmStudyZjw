@@ -1,5 +1,6 @@
 package com.taotao.mapper;
 
+import com.taotao.pojo.TbItemParamExample;
 import com.taotao.pojo.TbItemParamItem;
 import com.taotao.pojo.TbItemParamItemExample;
 import java.util.List;
@@ -18,7 +19,7 @@ public interface TbItemParamItemMapper {
 
     List<TbItemParamItem> selectByExampleWithBLOBs(TbItemParamItemExample example);
 
-    List<TbItemParamItem> selectByExample(TbItemParamItemExample example);
+    List<TbItemParamItem> selectByExample(TbItemParamExample example);
 
     TbItemParamItem selectByPrimaryKey(Long id);
 

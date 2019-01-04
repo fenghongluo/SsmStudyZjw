@@ -99,6 +99,8 @@
 						$(".panel-tool-close").click();
     					$("#itemParamList").datagrid("reload");
     				});
+				}else{
+					$.messager.alert('提示',data.Message,undefined,undefined)
 				}
 			});
 		});
